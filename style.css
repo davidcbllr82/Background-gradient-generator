@@ -26,3 +26,19 @@ h3 {
 
 }
 
+.randomBackground {
+    background: white;
+    border-color: white;
+    border: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 15px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.6s;
+}
+
+.randomBackground:hover {
+    transform: scale(1.1);
+}
